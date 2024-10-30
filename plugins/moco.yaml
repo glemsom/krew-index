@@ -3,15 +3,15 @@ kind: Plugin
 metadata:
   name: moco
 spec:
-  version: v0.20.0
+  version: v0.24.1
   homepage: https://github.com/cybozu-go/moco
   platforms:
     - selector:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/cybozu-go/moco/releases/download/v0.20.0/kubectl-moco_v0.20.0_darwin_amd64.tar.gz
-      sha256: a66cac84897170e57ae01d3401e4352a3c390f73fe7611b07ef26ea8f6ac3263
+      uri: https://github.com/cybozu-go/moco/releases/download/v0.24.1/kubectl-moco_v0.24.1_darwin_amd64.tar.gz
+      sha256: d28fe97aa725379ed56bee68d1c438f5156c8127c441a5377021065f2c1bffe0
       bin: kubectl-moco
       files:
         - from: kubectl-moco
@@ -22,8 +22,8 @@ spec:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://github.com/cybozu-go/moco/releases/download/v0.20.0/kubectl-moco_v0.20.0_darwin_arm64.tar.gz
-      sha256: f3bd2bc1dee547ea5788cadb249d4aff8601be484a77da29dc5493926a5595e6
+      uri: https://github.com/cybozu-go/moco/releases/download/v0.24.1/kubectl-moco_v0.24.1_darwin_arm64.tar.gz
+      sha256: 582c92450ff6720c2583b2a903025a5f840edbeeef50a219190a89548f044cbc
       bin: kubectl-moco
       files:
         - from: kubectl-moco
@@ -34,8 +34,8 @@ spec:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/cybozu-go/moco/releases/download/v0.20.0/kubectl-moco_v0.20.0_linux_amd64.tar.gz
-      sha256: 248f1d91515bbd97212d688d01405d33cf7bae33d537a96a253e75ea01f06677
+      uri: https://github.com/cybozu-go/moco/releases/download/v0.24.1/kubectl-moco_v0.24.1_linux_amd64.tar.gz
+      sha256: 33453748c0a980bb4bacd358bb73663afa3648653785680de2afb86b35bea51f
       bin: kubectl-moco
       files:
         - from: kubectl-moco
@@ -46,8 +46,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/cybozu-go/moco/releases/download/v0.20.0/kubectl-moco_v0.20.0_linux_arm64.tar.gz
-      sha256: e4a84521917a02f8dbcfa2f2774281b911eca38f238036502824f2c271b5e039
+      uri: https://github.com/cybozu-go/moco/releases/download/v0.24.1/kubectl-moco_v0.24.1_linux_arm64.tar.gz
+      sha256: 5eb87ac814941de693b2e6c71d4f6d85769c8244014d968c33484ed49c6b8ec0
       bin: kubectl-moco
       files:
         - from: kubectl-moco
@@ -58,8 +58,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/cybozu-go/moco/releases/download/v0.20.0/kubectl-moco_v0.20.0_windows_amd64.tar.gz
-      sha256: 640f5beb3ba7e9c17dd21dbe44fd116e15801c0a351b808a8708c4e12674448b
+      uri: https://github.com/cybozu-go/moco/releases/download/v0.24.1/kubectl-moco_v0.24.1_windows_amd64.tar.gz
+      sha256: bb8288cd2f6eedabb80c26bee43f0ce743dec53d0fca41c5449b63235ce91588
       bin: kubectl-moco.exe
       files:
         - from: kubectl-moco.exe

@@ -3,43 +3,43 @@ kind: Plugin
 metadata:
   name: rbac-tool
 spec:
-  version: v1.15.0
+  version: v1.20.0
   platforms:
   - bin: rbac-tool
-    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.15.0/rbac-tool_v1.15.0_linux_amd64.tar.gz
-    sha256: e6d68e0e3c1e38466d273012105f7bf669115667a6969b0aa81d907303ffc771
+    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.20.0/rbac-tool_v1.20.0_linux_amd64.tar.gz
+    sha256: f30d5e3bbb48df0c82950b15689883449f15cc70dd3c081144ed3dca1bcfbb55
     selector:
       matchLabels:
         os: linux
         arch: amd64
 
   - bin: rbac-tool
-    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.15.0/rbac-tool_v1.15.0_linux_arm64.tar.gz
-    sha256: 443b862c64a6ef36f46cc423617d030f304f7f14c08adc69a0c783eeb582cb31
+    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.20.0/rbac-tool_v1.20.0_linux_arm64.tar.gz
+    sha256: d5478e58e66b5d48285a6d39e3312c3b51640fae68b843af162543d1ccf31348
     selector:
       matchLabels:
         os: linux
         arch: arm64
 
   - bin: rbac-tool
-    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.15.0/rbac-tool_v1.15.0_darwin_amd64.tar.gz
-    sha256: bfe9ce8f38e7dedd57870ce139edaddd29c3d2329e20e520fd31a827dcb1fdbb
+    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.20.0/rbac-tool_v1.20.0_darwin_amd64.tar.gz
+    sha256: b2908e40687158a5f54f83789ce24ef92b9f67d574531f751273c7b45d9a9ce5
     selector:
       matchLabels:
         os: darwin
         arch: amd64
 
   - bin: rbac-tool
-    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.15.0/rbac-tool_v1.15.0_darwin_arm64.tar.gz
-    sha256: 230418d3068ea07bd974bb14959d5bf7c36a007bb5c79ca12c83beff6d7d676a
+    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.20.0/rbac-tool_v1.20.0_darwin_arm64.tar.gz
+    sha256: 308cebaff1d9f27f36c5e5a684d7581e65c580c86d1c8d17f0213e9cd412a3c3
     selector:
       matchLabels:
         os: darwin
         arch: arm64
 
   - bin: rbac-tool.exe
-    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.15.0/rbac-tool_v1.15.0_windows_amd64.tar.gz
-    sha256: 205bfd7fca9145dcd4932b6a98d4438e27f067864cd4a1055037a135aeabfd86
+    uri: https://github.com/alcideio/rbac-tool/releases/download/v1.20.0/rbac-tool_v1.20.0_windows_amd64.tar.gz
+    sha256: 869a6b6cbea6b0a401eda9891695c7dbc4dc44344629ab67fc81037d2d14c656
     selector:
       matchLabels:
         os: windows

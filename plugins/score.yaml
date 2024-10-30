@@ -3,14 +3,14 @@ kind: Plugin
 metadata:
   name: score
 spec:
-  version: v1.17.0
+  version: v1.19.0
   homepage: https://github.com/zegl/kube-score
   platforms:
     - selector:
         matchLabels:
           os: darwin
-      uri: https://github.com/zegl/kube-score/releases/download/v1.17.0/kube-score_1.17.0_darwin_amd64.tar.gz
-      sha256: 6742e8a86272ccbb0202d88dad4b80530f44e9818add29385bcd0adea19433b1
+      uri: https://github.com/zegl/kube-score/releases/download/v1.19.0/kube-score_1.19.0_darwin_amd64.tar.gz
+      sha256: 623a8f7679096f15d46b8982d3548dafc8ecd86dc9264d1f9def90eb4bea5af4
       files:
         - from: "kube-score"
           to: .
@@ -20,8 +20,8 @@ spec:
     - selector:
         matchLabels:
           os: linux
-      uri: https://github.com/zegl/kube-score/releases/download/v1.17.0/kube-score_1.17.0_linux_amd64.tar.gz
-      sha256: 98e07c784a7db03591d6d78b2d062eb5478c2942bc954e1960f43da84a69dfed
+      uri: https://github.com/zegl/kube-score/releases/download/v1.19.0/kube-score_1.19.0_linux_amd64.tar.gz
+      sha256: a5b10e509bd845f0bc32a529f4e8165c021877f924ee6f6be66678039f75a761
       files:
         - from: "kube-score"
           to: .

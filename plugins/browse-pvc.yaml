@@ -4,7 +4,7 @@ kind: Plugin
 metadata:
   name: browse-pvc
 spec:
-  version: "v1.0.1"
+  version: "v1.0.7"
   homepage: https://github.com/clbx/kubectl-browse-pvc
   shortDescription: "Browse PVC contents from the command line."
   description: "Browse PVCs from the command line. Creates a job thats binds an unbound PVC and execs into it."
@@ -13,14 +13,14 @@ spec:
   - selector:
       matchLabels:
         os: darwin
-    uri: https://github.com/clbx/kubectl-browse-pvc/releases/download/v1.0.1/kubectl-browse-pvc-darwin.zip
-    sha256: 8fd5cb3239b8d25230b9e4fb5813e80117d0f825eb9de47644c62ca596449b6d
+    uri: https://github.com/clbx/kubectl-browse-pvc/releases/download/v1.0.7/kubectl-browse-pvc-darwin.zip
+    sha256: ffa3c83ac4e5b0e13d47e8ef7166f3d896f2311c7d9e9a46961c01733ddf98af
     bin: kubectl-browse-pvc
   # linux
   - selector:
       matchLabels:
         os: linux
         arch: amd64
-    uri: https://github.com/clbx/kubectl-browse-pvc/releases/download/v1.0.1/kubectl-browse-pvc-linux.zip
-    sha256: 6a325575c59153e10b19a77106ac3c8fa60c5480a04230c05230747f100a1916
+    uri: https://github.com/clbx/kubectl-browse-pvc/releases/download/v1.0.7/kubectl-browse-pvc-linux.zip
+    sha256: 09d8d5f09c922c6b5688d393a192ed6d9e39405b1a86a0dcd715c69bd5274453
     bin: kubectl-browse-pvc

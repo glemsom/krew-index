@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: cnpg
 spec:
-  version: v1.22.0
+  version: v1.24.1
   platforms:
     - bin: kubectl-cnpg.exe
-      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.22.0/kubectl-cnpg_1.22.0_windows_x86_64.tar.gz
-      sha256: 566f25469d1cc51642ce2ec5e2c1fc1a7e650de0d4316096aba5c1a716b5154e
+      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.24.1/kubectl-cnpg_1.24.1_windows_x86_64.tar.gz
+      sha256: 3a4f26df58f4174b16f68877763790d3856fa06a5d5e06ccd1b0fed7939cfc87
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubectl-cnpg.exe
-      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.22.0/kubectl-cnpg_1.22.0_windows_arm64.tar.gz
-      sha256: 16f3502220c3622bce54894a891c7be918123b8889852fdaf077e1a7da4bc605
+      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.24.1/kubectl-cnpg_1.24.1_windows_arm64.tar.gz
+      sha256: 46757c0b9fa9d3a33b136dd8e0f4b85d300a90681887274e84d46f200f7defcd
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubectl-cnpg
-      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.22.0/kubectl-cnpg_1.22.0_linux_x86_64.tar.gz
-      sha256: a9bf2ed7ab72e71633228296b0cb0427fd33b065a404173bca16a44e0af254fe
+      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.24.1/kubectl-cnpg_1.24.1_linux_x86_64.tar.gz
+      sha256: 64896712523b65d3353b962b0d681c7439c62be1692ecd6d40e2121c10bac415
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-cnpg
-      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.22.0/kubectl-cnpg_1.22.0_linux_arm64.tar.gz
-      sha256: 566a4f4915bc8c093ecf4c4119298036a981088f93a891a37c580d217dda796d
+      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.24.1/kubectl-cnpg_1.24.1_linux_arm64.tar.gz
+      sha256: f44eeb40ca0e23bb1f2ea06153a0e65d64a979f775f11330c1780203ae184b49
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-cnpg
-      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.22.0/kubectl-cnpg_1.22.0_darwin_x86_64.tar.gz
-      sha256: 67a5d2ab55f087c36bf4fc4d8ed6a7f590d2030a330fb3d91b717b5b9824d3fa
+      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.24.1/kubectl-cnpg_1.24.1_darwin_x86_64.tar.gz
+      sha256: 5494c79768fc73a38895a755f3ab3d04f22559f5dae373facab2d020057bc89e
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubectl-cnpg
-      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.22.0/kubectl-cnpg_1.22.0_darwin_arm64.tar.gz
-      sha256: c96f4b12a1665df346ad97005e824714ce724f8513d805ccb6bd99f5d169fbb2
+      uri: https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.24.1/kubectl-cnpg_1.24.1_darwin_arm64.tar.gz
+      sha256: c48cfee6de4a2911577a12dba414a0a7e309b2de55232a421c9c2351696ca3ae
       selector:
         matchLabels:
           os: darwin
